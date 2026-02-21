@@ -52,8 +52,7 @@ h6 {
 }
 
 /* Remove list styles on ul, ol elements with a list role */
-ul[role='list'],
-ol[role='list'] {
+ul, ol{
   list-style: none;
 }
 
@@ -61,4 +60,8 @@ ol[role='list'] {
 #root,
 #__next {
   isolation: isolate;
+}
+
+a {
+  text-decoration: none;
 }
