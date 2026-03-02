@@ -1,0 +1,106 @@
+.footer {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 40px;
+    margin-top: 40px;
+}
+
+.footer-principal {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px 40px 40px;
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.footer-left p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #EDEDED;
+    letter-spacing: 2px;
+}
+
+.email {
+    padding: 0.75rem 1rem;
+    border: none;
+    border-radius: 50px;
+    margin-bottom: 52px;
+    width: 344px;
+}
+
+.footer-left h3 {
+    font-size: 1.1rem;
+    margin-bottom: 0.75rem;
+    font-weight: 400;
+    color: #EDEDED;
+    letter-spacing: 3px;
+}
+
+.footer-left ul {
+    display: flex;
+    gap: 1rem;
+    padding: 0;
+}
+
+.footer-left li {
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-left img {
+    height: 16px;
+
+}
+
+.footer-right {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    letter-spacing: 2px;
+}
+
+.link-column h4 {
+    margin-bottom: 0.5rem;
+    color: #EDEDED;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.link-column ul {
+    padding: 0;
+}
+
+.link-column li {
+    margin-bottom: 0.5rem;
+}
+
+.link-column a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.link-column a:hover {
+    text-decoration: underline;
+}
+
+.footer-copyright {
+    text-align: center;
+    border-top: 1px solid #ffffff;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
