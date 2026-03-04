@@ -9,6 +9,12 @@ main {
     margin: 0 auto;
 }
 
+@media (max-width: 1280px) {
+    main {
+        padding: 0.625rem;
+    }
+}
+
 .btn {
     font-size: 1.25rem;
     width: 161px;
@@ -29,6 +35,7 @@ main {
 .btn-filled{
     background-color: #ffffff;
     color: #6329a2;
+    line-height: 26px;
 }
 
 .btn:hover{

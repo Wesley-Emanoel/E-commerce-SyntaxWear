@@ -18,17 +18,18 @@
 
 .hero-content {
     color: #ffffff;
-    max-width: 360px;
+    max-width: 380px;
     text-align: center;
 }
 
 .hero-buttons {
     display: flex;
     gap: 16px;
+    justify-content: space-around;
 }
 
 .hero-content .hero-title {
-    font-size: 1.87rem;
+    font-size: 1.5rem;
     margin-bottom: 40px;
     font-weight: 400;
     letter-spacing: 3px;
@@ -39,3 +40,33 @@
     font-weight: 400;
 }
 
+@media (max-width: 810px) {
+    .hero {
+        background-position: 40% center;
+        background-size: 200%;
+    }
+
+    .hero-content {
+        margin-top: 100px;
+    }
+}
+
+@media (max-width: 580px) {
+    .hero {
+        background-position: 30% center;
+        background-size: 300%;
+        height: 657px;
+    }
+
+    .hero-overlay {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 490px) {
+    .hero {
+        background-position: 30% center;
+        background-size: 450%;
+        height: 657px;
+    }
+}
