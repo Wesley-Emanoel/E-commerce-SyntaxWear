@@ -1,13 +1,14 @@
 .categories {
     padding: 40px 0;
     display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
     justify-content: space-between;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 10px;
 }
 
 .category-card {
-    width: 317px;
+    min-width: 317px;
     height: 500px;
     border-radius: 15px;
     position: relative;
@@ -55,3 +56,26 @@
     background-size: cover;
 }
 
+.categories::-webkit-scrollbar {
+    height: 15px;
+}
+
+.categories::-webkit-scrollbar-track {
+    background: #d9d9d9;
+    border-radius: 20px;
+}
+
+.categories::-webkit-scrollbar-thumb {
+    background: #9e9e9e;
+    border-radius: 20px;
+}
+
+@media (max-width: 780px) {
+    .categories {
+        padding: 20px 0;
+    }
+
+    .category-card {
+        min-width: 350px;
+    }
+}

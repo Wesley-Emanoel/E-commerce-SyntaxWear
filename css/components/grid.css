@@ -52,7 +52,6 @@
     align-items: center;
     justify-content: center;
     color: #ffffff;
-    
 }
 
 .top1-buttons {
@@ -62,6 +61,7 @@
 }
 
 .top1-content .top1-title {
+    text-align: center;
     font-size: 1.87rem;
     margin-bottom: 20px;
     font-weight: 400;
@@ -71,4 +71,49 @@
 .top1-content .top1-subtitle {
     font-size: 1.25rem;
     font-weight: 400;
+}
+
+@media (max-width: 780px) {
+    .grid {
+        gap: 10px;
+        margin-top: 20px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(6, auto);
+    }
+
+    .top1 {
+        grid-column: 1 / span 2;
+        grid-row: 1 / span 2;
+        min-height: 490px;
+    }
+
+    .top2 {
+        grid-column: 1 / span 2;
+        grid-row: 6;
+        min-height: 190px;
+    }
+
+    .midL {
+        grid-column: 1;
+        grid-row: 4 / span 2;
+        min-height: 370px;
+    }
+
+    .midR {
+        grid-column: 2;
+        grid-row: 4;
+        min-height: 180px;
+    }
+
+    .bottomL {
+        grid-column: 1 / span 2;
+        grid-row: 3;
+        min-height: 190px;
+    }
+
+    .bottomR {
+        grid-column: 2;
+        grid-row: 5;
+        min-height: 180px;
+    }
 }
